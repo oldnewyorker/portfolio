@@ -2,7 +2,7 @@ body {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
-	background: linear-gradient(-45deg, rgb(226, 176, 161), rgb(218, 168, 187), rgb(173, 202, 213), rgb(230, 92, 179));
+	background: linear-gradient(-45deg, rgb(208, 198, 195), rgb(198, 185, 190), rgb(180, 215, 228), rgb(235, 215, 228));
 	background-size: 600% 600%;
 	-webkit-animation: Gradient 5s ease infinite;
 	-moz-animation: Gradient 5s ease infinite;
@@ -166,15 +166,27 @@ h6 {
     right: 190px;
 }
 
-
+/* Contact Me Buttons */
 
 .container{
-    margin-right: 80px;
+    position: relative;
+    float: left;
+    left: 140px;
+    top: 650px;
+    height: 1px;
 }
+
+.btn{
+    height: 40px;
+    width: 110px;
+    background-color: white;
+    color: black;
+}
+
 
 /* Div About Me */
 
-.cities {
+.aboutme {
     color: white;
     margin: 80px;
     padding: 20px;
@@ -182,7 +194,7 @@ h6 {
     height: 400px;
     float: right;
     position: relative;
-    bottom: 400px;
+    bottom: 475px;
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
   }
 
@@ -193,8 +205,8 @@ h1{
     font-size: 20px;
     position: relative;
     float: right;
-    top: 1200px;
-    left: 350px;
+    top: 1275px;
+    left: 230px;
     height: 100px;
     font-size: 40px;    
 }
@@ -208,8 +220,8 @@ h1{
 .card2{
     position: relative;
       float: right;
-      right: 725px;
-      top: 1090px;
+      left: 1125px;
+      top: 1400px;
 }
  
 
@@ -219,7 +231,7 @@ h1{
   .card1{
       position: relative;
       float: left;
-      left: 100px;
+      left: 750px;
       top: 1400px;
 }
 
@@ -229,6 +241,6 @@ h1{
 .card3{
     position: relative;
     float: right;
-    top: 1090px;
-    left: 90px;
+    top: 1050px;
+    right: 1550px;
 }

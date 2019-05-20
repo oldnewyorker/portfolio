@@ -231,7 +231,7 @@ h1{
   .card1{
       position: relative;
       float: left;
-      left: 750px;
+      left: 800px;
       top: 1400px;
 }
 
@@ -243,4 +243,11 @@ h1{
     float: right;
     top: 1050px;
     right: 1550px;
+}
+
+.card4{
+position: relative;
+flaot: left;
+top: 1100px;
+left: 800px;
 }
